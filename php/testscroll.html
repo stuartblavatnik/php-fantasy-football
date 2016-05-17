@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<BODY>
+<STYLE>
+#scrollBox {
+  position: absolute;
+  left: 200px; top: 200px;
+  width: 100px; height: 100px;
+}
+</STYLE>
+<SCRIPT>
+function scrollText () {
+  if (document.layers) {
+    var l = document.scrollBox;
+    l.document.open();
+    l.document.write(l.txt.substring(0, l.pos++));
+    l.document.close();
+  }
+  else {
+    var l = document.all.scrollBox;
+    l.innerHTML = l.txt.substring(0, l.pos++);
+  }
+  if (l.pos <= l.txt.length)
+    setTimeout("scrollText()", l.delay);
+}
+function initScroller (txt, delay) {
+  delay = delay || 200;
+  var l = document.layers ? document.scrollBox : document.all.scrollBox;
+  l.txt = txt;
+  l.pos = 1;
+  scrollText();
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<DIV ID="scrollBox"></DIV>
+<FORM NAME="gui">
+<INPUT TYPE="text" NAME="text" VALUE="Kibology for all. All for
+Kibology." SIZE="80">
+<BR>
+<INPUT TYPE="button" VALUE="type"
+       onclick="initScroller(this.form.text.value);"
+>
+</FORM>
+
+</BODY>
+</HTML>
