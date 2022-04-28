@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T00:15:55.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="t8A02CQVa8f4J847_bEi" type="github"><diagram id="UejMKHTZEoGPQLYZaO64">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T00:29:05.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="0qJ15hKwNjAtzEcQjJrO" version="17.4.6" type="github">
+  <diagram id="UejMKHTZEoGPQLYZaO64" name="Page-1">
+    <mxGraphModel dx="1148" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-1" value="Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-2" value="Authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-3" value="Administration Tools" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-4" value="mySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="130" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-1" target="OzK4uCiXpnZAYLhjkkdk-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="180" as="sourcePoint" />
+            <mxPoint x="140" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-2" target="OzK4uCiXpnZAYLhjkkdk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="200" as="sourcePoint" />
+            <mxPoint x="190" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-2" target="OzK4uCiXpnZAYLhjkkdk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="210" as="sourcePoint" />
+            <mxPoint x="200" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-3" target="OzK4uCiXpnZAYLhjkkdk-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint" />
+            <mxPoint x="470" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-9" value="Administration includes configuring the league including scoring rules, fees, importing of weekly scores (via flat files)" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-10" value="Fantasy Team Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-11" value="Authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-10" target="OzK4uCiXpnZAYLhjkkdk-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="420" as="sourcePoint" />
+            <mxPoint x="190" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-13" value="mySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-15" value="User Functions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-11" target="OzK4uCiXpnZAYLhjkkdk-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="400" as="sourcePoint" />
+            <mxPoint x="180" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="270" as="sourcePoint" />
+            <mxPoint x="320" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-15" target="OzK4uCiXpnZAYLhjkkdk-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="410" as="sourcePoint" />
+            <mxPoint x="520" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-20" value="User functions include: Ability to set lineup, drop and add players, view weekly scores, initiate trades" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="490" y="220" width="130" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
