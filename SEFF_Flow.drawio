@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T00:29:05.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="0qJ15hKwNjAtzEcQjJrO" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T00:39:17.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DVwcgnMPmfQ0WcvXvFRS" version="17.4.6" type="github">
   <diagram id="UejMKHTZEoGPQLYZaO64" name="Page-1">
     <mxGraphModel dx="1148" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="OzK4uCiXpnZAYLhjkkdk-2" value="Authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OzK4uCiXpnZAYLhjkkdk-3" value="Administration Tools" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-3" value="Administration Tool / Section (php)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OzK4uCiXpnZAYLhjkkdk-4" value="mySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -58,7 +58,7 @@
         <mxCell id="OzK4uCiXpnZAYLhjkkdk-13" value="mySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="260" y="340" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OzK4uCiXpnZAYLhjkkdk-15" value="User Functions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-15" value="Fantasy Football Owner Section (php)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OzK4uCiXpnZAYLhjkkdk-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-11" target="OzK4uCiXpnZAYLhjkkdk-13">
@@ -81,6 +81,42 @@
         </mxCell>
         <mxCell id="OzK4uCiXpnZAYLhjkkdk-20" value="User functions include: Ability to set lineup, drop and add players, view weekly scores, initiate trades" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="490" y="220" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-21" value="Fantasy Drafter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-25" value="Authentication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="OzK4uCiXpnZAYLhjkkdk-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="480" as="sourcePoint" />
+            <mxPoint x="160" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-27" value="mySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="230" y="550" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-25" target="OzK4uCiXpnZAYLhjkkdk-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="610" as="sourcePoint" />
+            <mxPoint x="150" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-29" value="Draft Room" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-25" target="OzK4uCiXpnZAYLhjkkdk-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="590" as="sourcePoint" />
+            <mxPoint x="420" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzK4uCiXpnZAYLhjkkdk-34" value="Poll for updates for chat messages and draft updates" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="OzK4uCiXpnZAYLhjkkdk-27" target="OzK4uCiXpnZAYLhjkkdk-29">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="330" y="630" as="sourcePoint" />
+            <mxPoint x="430" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
