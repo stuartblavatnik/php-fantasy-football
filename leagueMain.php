@@ -38,7 +38,7 @@ include_once("../php/classes/nflteam.php");
         {
             echo("Sorry, database not available, please try again later");
         }
-        else if (substr($fantasyTeamName, 0, strlen("admin")) == "admin" && $password == "eggbert") 
+        else if (substr($fantasyTeamName, 0, strlen("admin")) == "admin" && $password == "XXX") 
         {
             //Create a LeagueInfo object
             $CLeagueInfo = new LeagueInfo($leagueName, $leagueYear);
